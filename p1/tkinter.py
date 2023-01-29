@@ -18,6 +18,13 @@ while a>0:
     a = a-1
     window.update()
     time.sleep(0.1)
+
+a = 10
+while a>0:
+    canvas.move(blue_rect,-23,0)
+    a = a-1
+    window.update()
+    time.sleep(0.1)
 '''my_button = Button(window, text = "Привет", command = greeting)
 my_button.pack()
 sleep_button = Button(window, text = "Пора баиньки", command = good_night)
