@@ -9,7 +9,7 @@ def good_night():
 window = Tk() #creating a window
 canvas = Canvas(window, width = 500, height = 500) #creating canvas
 canvas.pack()
-canvas.create_line(0,0,500,500) #creating line'''
+canvas.create_line(0,0,500,500) #creating line
 blue_rect = canvas.create_rectangle(250,250,500,500, fill = "blue") #creating blue square
 red_rect = canvas.create_rectangle(20,20,250,250, fill = "red")  #creating red square
 a = 10
